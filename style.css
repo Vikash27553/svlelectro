@@ -831,7 +831,7 @@ li a{
     /* background-color: black; */
      display: flex;
      flex-direction: column;
-     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(images/bcimage.jpg);
+     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(bcimage.jpg);
      background-size: cover;
      padding-bottom: 10px;
 
