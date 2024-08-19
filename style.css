@@ -1,0 +1,945 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    border: border-box;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+} 
+ 
+
+    body{
+        margin: 0px;
+        min-height: 100vh;
+        width: 100vw;
+        padding: 0px;
+        border: border-box;
+        overflow-x: hidden;
+        text-size-adjust: 100%;
+    
+    }
+/* body{
+    background-image: url('bcimage.jpg');
+    background-repeat: none;
+    background-size: cover;
+} */
+
+
+.bothtop{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+.mailtop{
+    
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    margin-right: 60px;
+    margin-bottom: 5px;
+    /* background-color: aquamarine; */
+}
+.mailtop a:hover {
+    color: white;
+}
+.topcall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-right: 98px;
+
+}
+.contact{
+
+    background-color: rgb(133, 200, 222 , .6);
+    max-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.imagecontainer{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.bothitem{
+    display: flex;
+    justify-content: right;
+    align-items:center;
+    text-align: right;
+}
+.bothitem  h3{
+    margin-right: 30px;
+    color: black;
+}
+.image{
+    height: auto;
+    width: 60px;
+}
+.mode{
+    height: 30px;
+    width: 60px;
+    background-color: wheat;
+    color: black;
+    cursor: pointer;
+
+    font-weight: bold;
+}
+.nav-bar{
+    
+    height: 100px;
+    background-color:#F8C471;
+    color: black;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+}
+.nav-logo{
+    height: 80px;
+    width:250px;
+    border: none;
+
+    
+   
+}
+.logo{
+    background-image: url(images/svllogo.png);
+    height: 80px;  
+    width:100%;
+    background-size: cover  ;
+    align-items: start;
+
+    list-style: none;
+    background-color:#F8C471;
+    
+}
+
+
+.nav-address{
+    padding: 20px;
+    text-align: center;
+    font: bold;
+    
+    
+}
+.add-icon{
+    display: flex;
+}
+/**Box 2**/
+.add-first{
+    font-size: 0.85rem;
+    color: black;
+    font: bold;
+    margin-left: 13px;
+}
+.add-second{
+    margin-left: 2px;
+
+}
+/**Box 3**/
+
+.nav-search{
+    
+    display: flex;
+    height: 40px;
+    width: 600px;
+}
+
+.search-select{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+    border: none;
+     
+}
+.search-input{
+    max-width: 500px;
+    text-align: center;
+    border: none;
+    font-size: 1rem;
+    
+}
+.search-icon{
+    width: 50px ;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+span{
+    font-size: 0.75rem ;
+}
+.nav-secound{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size:  0.85rem;
+    font-weight: bold;
+}
+.panel{
+    max-width: 100%;
+    height: 50px;
+    background-color:gainsboro;
+    /* position: sticky; */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.menu{
+    display: none;
+    font-size: 25px ;
+    margin-right: 10px;
+}
+.panel-all{
+    position: sticky;
+    /* display: flex; */
+    /* position: fixed; */
+    gap: 6px;
+    justify-content: left;
+    align-items: center;
+    max-width: fit-content;
+    
+}
+.panel-ops{
+    /* display: flex; */
+    height: auto;
+    max-width: 100%;
+    /* background-color: lightcyan; */
+
+   justify-content: start;
+    text-align: center;
+    align-items: center;
+}
+.panel-ops ul{
+    display: flex;
+    /* display: flex; */
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    /* flex-wrap: wrap; */
+
+
+}
+
+ ul li {
+    justify-content: space-betwe;
+    text-decoration: none;
+    margin-right: 80PX;
+    list-style: none;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    /* text-transform: uppercase; */
+    padding: 8PX;
+}
+ul{
+    display: inline;
+}
+li a{
+    color: black;
+    text-decoration: none;
+    display: inline;
+    align-items: center;
+}
+  li a:hover{
+    color: white;
+    -ms-zoom: 1.2px;
+}
+
+.panel-ops{
+    max-width: 100%;
+}
+.panel-deals{
+    margin-left: 40PX;
+    font-size: 0.9rem;
+    font-weight: bold;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+}
+/* HERE WE DEFINE DROPDOWN CSS */
+
+.dropdown-toggle::after {
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+.dropdown-menu a {
+    display: block;
+}
+.dropdown-menu{
+    position: absolute;
+    height: auto;
+    width: 150px;
+    background-color: #F8C471;
+    line-height: 1.5rem;
+    z-index:30;
+    display: none;
+}
+.dropdown-menu a{
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+    font-size: small;
+    text-align: left;
+}
+.dropdown-menu a:hover{
+    background-color: #f3f3f3;
+
+}
+.dropdown:hover .dropdown-menu  {
+    display: block;
+   
+}
+
+/* END OF DROPDOWN*/
+
+
+.front{
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)),url(images/bcimagemain.jpg);
+    background-size: 100px;
+    size: 200px;
+    width: 100%;
+    background-size: cover; 
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-content: center; */
+    text-align: center;
+    position: relative;
+    
+}
+.first-div{
+    height: 550px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* justify-content: center; */
+}
+
+   
+
+.front-msg{
+    height: 50px;
+    width: 100%;
+    color: #e7a73f;
+    background-color: transparent;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    
+     border-radius: 5px;
+    font-weight: bold;
+    /* border: 2px solid wheat; */
+    display: flex;
+    margin-left: 2%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;    
+    
+    
+}
+.front-msg2{
+    height: 50px;
+    /* width: 30%; */
+    border-radius: 5px;
+    font-size: 1rem;
+
+    font-weight: bold;
+    /* border: 2px solid wheat; */
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+.call-div{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    width:100% ;
+    position: relative;
+    /* background-color: #e7a73f; */
+
+}
+.call {
+    color: black;
+    margin-right: 20px;
+    border: 2px solid wheat;
+    padding: 5px;
+    background-color: #27BECC;
+    /* box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff; */
+    border-radius: 8px;
+    width: 180px;
+    /* position: relative; */
+
+    font-size: 20px;
+
+
+
+}
+.call a{
+    color: black;
+    /* box-shadow: 0.6em 0.6em 1.2em #5c5e60, -0.5em -0.5em 1em #ffffff; */
+
+}
+.learn-more{
+    color: black;
+    border: 2px solid wheat;
+    padding: 5px;
+    background-color: #27BECC;
+    /* box-shadow: 0.6em 0.6em 1.2em #787a7d, -0.5em -0.5em 1em #ffffff; */
+    border-radius: 8px;
+    width: 180px;
+
+    font-size: 20px;
+    
+    /* border-radius: 20px; */
+    
+}
+.learn-more a{
+    color: black;
+    /* box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff; */
+}
+.shop-title{
+    /* height: 400px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin: 10px;
+    width: 100%;
+    padding: 5px;
+
+}
+.shop-title-msg{
+    text-align: center;
+    /* font-size: larger; */
+    font-weight: bold;
+    color: red;
+        /* background-color: aquamarine; */
+
+}
+
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    height: auto;
+   
+    /* flex-wrap: wrap; */
+    /* min-width: 200px; */
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.shop-section img{
+    padding: 10px;
+    width: 70%;
+
+    
+
+}
+.box{
+    position: relative;
+     max-height: 350px;
+     min-width: 250px;
+     box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;     border-radius: 2em;
+
+}
+.hero-section{
+    /* background-image: url('img10.png'); */
+    display: flex;
+    border-top: none;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;     border-radius: 2em;
+    position: relative;
+
+
+    padding: 5px;
+
+    box-sizing: border-box;
+    margin-top: 40px;
+    max-width: auto;
+    max-height: 60%;
+    /* height: 80vh; */
+    /* background-color: rgba(255, 255, 255, 0.051);
+     */
+}
+.textintro{
+    /* width: 100%; */
+
+}
+
+
+
+
+
+.photo-container{
+    position: relative;
+    height: auto;
+    max-width: 100%;
+    background-color: cadetblue;
+    overflow: hidden;
+} 
+.photo-item{
+    /* position: relative;
+    max-height: 25rem;
+    max-width:35rem ;
+    align-items: center;
+    overflow: hidden; */
+    
+
+    padding: 80px;
+    background-color: brown;
+}
+.hero-section span{
+    color: red;
+    padding: 5px;
+    font-weight: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family:  monospace;
+    margin-left: 25px;
+}
+.hero-section p {
+    margin-top: 10px;
+    line-height: 30px;
+    /* text-align: left; */
+    font-style: normal;
+    /* font-weight: bold; */
+    margin-left: 0px;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 2;
+
+
+}
+.aboutmsg{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+    width: 100%;
+    box-shadow: #e2e7e6;
+    border: transparent black;
+    box-shadow: #e7a73f;
+}
+.spanelement{
+
+}
+
+.about-img img{
+    max-width: 20rem;
+    height: auto;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+    
+}
+
+.hero-section button {
+    margin-top: 15px;
+    width: 120px;
+    margin-left: 50px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+
+    height: 40px;
+
+}
+.hero-section button:hover{
+    background-color: #e7a73f;
+    color: black    ;
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    /* height: 100px; */
+        /* border: 5PX solid black; */
+    width: 23%;
+    height: 350px;
+    background-color: white;
+    margin-bottom: 30px ;
+}
+.box:hover{
+    transform: scale(1.050);
+
+}
+.box1{
+    
+    background-size: contain;
+    overflow: hidden;
+
+    
+}
+.box2{
+    background-size: contain;
+    overflow: hidden;
+}
+.box3{
+    background-size: contain;
+    overflow: hidden;
+}
+.box4{
+    background-size: contain;
+    overflow: hidden;
+}
+.div22{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 8px;
+   
+
+
+}
+.div22:hover{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(209, 225, 231, 0.6);
+
+}
+.div22 a{
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 22px;
+    padding: 3px;
+}
+
+
+/*here we are giving   style to choose container */
+.choose-container{
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;    
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(images/bcimage.jpg) center center no-repeat;
+    background-size: cover;
+    /* color: rgba(255, 255, 255, .7); */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+
+    height: 500px;
+        /* overflow: hidden; */
+    background-color:white;
+
+}
+.outmost-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.choose-img img {
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    position: relative;
+    top: 0px;
+}
+.titlemsg{
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.outer-container{
+    
+    left: 200px;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+    display: flex;
+    overflow: auto;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    /* background-color: #25D366; */
+}
+.div1{
+    position: relative;
+    /* border: solid 1px white; */
+    
+
+    height:80px;
+    width: 80%;
+}
+.div1 span{
+    font-size: 30px;
+    color: #F1AF58;
+    font-weight: bold;
+}
+.arrow::before{
+    content: "\00BB";
+    font-weight: bold;
+    font-size: 30px;
+    gap: 10px;
+    margin-right: 10px;
+    color: #25D366;
+}
+
+
+
+
+
+/* here we are defining the css of testimonial */
+/* 
+.testimonial-container{
+    background-color: #e7a73f;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;  
+    height: 70vh;  
+    /* padding: 20px; */
+/* }
+.testimonial-main{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    height:90%;
+    background-color: aquamarine;
+}
+.testimonial-title{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 20%;
+    background-color: bisque;
+    margin: 3px;
+    padding: 5px;
+}
+.testimonail-msg{
+    padding: 6px;
+    border: 2px solid red ;
+    
+    border-radius: 18px;
+}
+.testimonial-title p{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    width: 35%;
+    margin: 5px;
+    padding: 5px;
+    /* display: block; */
+
+ */ */
+
+
+
+
+
+
+.brands{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-height: 60vh;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 10px;
+    /* border: solid greenyellow; */
+
+
+}
+.brands:hover {
+    
+    border: solid 3px rgba(68, 199, 211, 0.929);
+    
+    
+   
+}
+
+
+.brand-list h3{
+    font-weight: bold;
+    font-size: 2em;
+     color: rgba(68, 199, 211, 0.929);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+}
+.brand-list img{
+    max-width: 100%;
+    max-height: 350px;
+}
+.footer-container{
+    /* background-color: black; */
+     display: flex;
+     flex-direction: column;
+     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(images/bcimage.jpg);
+     background-size: cover;
+     padding-bottom: 10px;
+
+     
+    max-width: 100%;
+    /* max-height: 50vh; */
+    
+    
+}
+
+.upper-main{
+    display: flex;
+    justify-content: space-between;
+    /* overflow:hidden; */
+    
+    /* background-color: black; */
+    height: 350px;
+    max-width: 100%;
+}
+.leftdiv{
+    display: flex;
+
+    flex-direction: column;
+
+    /* max-height:320px ; */
+    max-width: 70%;
+    max-width: auto;
+    color: white;
+    margin-left: 70px;
+    margin-bottom: 30px;
+   
+    /* background-color: black; */
+}
+.leftdiv h4{
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.leftdiv >h3{
+    color:  rgb(150, 247, 232);
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.leftwhatsapp{
+    display: flex;
+    gap: 15px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    cursor: pointer;
+    color: black;
+
+    height: 30px;
+    margin-top: 15px;
+}
+.rightdiv{
+    position: relative;
+    /* background-color: antiquewhite; */
+    height:auto;
+    width: 35%;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding: 15px;
+    z-index: 2;
+    /* overflow-y: hidden;  */
+}
+.rightdiv iframe{
+    overflow-y: hidden;
+    z-index: -4;
+}
+.lowerdiv {
+   
+    color: white;
+    
+}
+.leftlocation{
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+
+} 
+.leftgmail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.lowerdiv{
+    display: flex;
+    height: auto;
+    font-weight:  bold;
+    max-width: 100%;
+    /* padding: 20px; */
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #27BECC; */
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;   
+    padding: 10px;
+}
+
+
+/* here we are defining css for why you choose us section */
+
+
+
+    
+    
+/* Here we are defing the product page css */

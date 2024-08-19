@@ -1,0 +1,164 @@
+html,body{
+        /* height: 100%; */
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+@media screen and (max-width: 968px) { 
+    *{
+        margin: 0;
+        /* overflow-x: hidden; */
+    }
+    body{
+        width: 100vw;
+        /* overflow: hidden; */
+        outline: none;
+    }
+    .hero-section{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .aboutmsg{
+        max-width: 100%;
+        height: auto;
+    }
+    .hero-section p{
+        text-align: justify;
+
+    }
+    .about img{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+    
+    .menu{
+        padding: 20px;
+       position: absolute;
+       right: 0;
+       top: 0;
+       margin-top: 30px;
+       margin-right: 20px;
+    font-size: 30px;
+       /* display: block; */
+    }
+    .menubar{
+        position: relative;
+    }
+    .panel{
+        display: block;
+        height: 70px;
+        position:relative;
+        display: flex;
+        justify-content: center;
+        transition: all 0.5s;
+    }
+    
+   
+
+
+
+
+    
+       
+
+    
+    .brands{
+        /* visibility: hidden; */
+        max-width: 100%;
+        height: auto;
+    }
+    .call-div{
+        flex-direction: column;
+        max-width: 100%;
+
+    }
+    .call{
+        max-width: 180px;
+        margin-bottom: 10px;
+        margin-right: 0px;
+
+    }
+}
+    @media screen and (max-width: 525px){
+        .topboth{
+            visibility: hidden;
+        }
+        
+    }
+
+   
+    @media screen and (max-width: 940px){
+        .upper-main{
+            flex-direction: column;
+            width: 100%;
+            position: relative;
+            height: 100%;
+        }
+        .rightdiv{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            
+        }
+        
+    }
+    
+@media screen and (max-width: 520px) {
+    .box{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .menu{
+        display: block;
+    }
+    .panel-ops{
+        /* visibility: hidden; */
+    }
+
+    
+
+} 
+
+@media screen and (max-width: 1150px){
+.panel-deals{
+    display: none;
+}
+.panel{
+    height: 100vh;
+    max-width: 100%;
+    gap: 2rem;
+    display: flex;
+    align-items: flex-start;
+    top: 0;
+    padding: 50px;
+    overflow: hidden;
+    /* display: none; */
+    
+}
+.panel-ops ul{
+    display: block;
+    /* position: absolute; */
+    top: 5rem;
+    margin-top: 4rem;
+    
+    /* background-color: aqua; */
+    
+}
+
+.panel-ops li{
+    margin-bottom: 50px;
+    gap: 80px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+}
+    
+
