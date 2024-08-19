@@ -111,7 +111,7 @@
    
 }
 .logo{
-    background-image: url(svllogo.png);
+    background-image: url(images/svllogo.png);
     height: 80px;  
     width:100%;
     background-size: cover  ;
@@ -319,7 +319,7 @@ li a{
 
 .front{
     height: auto;
-    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(bcimage.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(images/bcimage.jpg);
     background-size: 100px;
     size: 200px;
     width: 100%;
