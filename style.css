@@ -319,7 +319,7 @@ li a{
 
 .front{
     height: auto;
-    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)),url(bcimagemain.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(bcimage.jpg);
     background-size: 100px;
     size: 200px;
     width: 100%;
