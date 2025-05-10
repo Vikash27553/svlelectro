@@ -1,6 +1,6 @@
 # svlelectro
 
-This website is live  and can see at domain {https://svlelectro.in}
+This website is live  and can see at domain { https://svlelectro.in }
 and can get access by using githublink  { https://vikash27553.github.io/svlelectro/ }
 
 
